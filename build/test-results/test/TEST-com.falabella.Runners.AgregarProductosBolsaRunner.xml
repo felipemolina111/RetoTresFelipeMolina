@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.falabella.Runners.AgregarProductosBolsaRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-4DRDE1B" time="0.0">
+  <properties/>
+  <system-out><![CDATA[23:29:02.377 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:02.536 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:02.539 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:02.558 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+23:29:02.558 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=resources/chromedriver.exe
+23:29:02.559 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--disable-popup-blocking,--incognito, --disable-download-notification,--start-maximized,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions,
+23:29:02.559 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+23:29:02.560 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.timeouts=10000
+23:29:02.560 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+23:29:02.560 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.unexpectedAlertBehaviour=ignore
+23:29:03.213 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature
+23:29:03.568 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:03.722 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:03.723 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\serenity.properties 
+23:29:03.726 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+23:29:03.727 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=resources/chromedriver.exe
+23:29:03.729 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--disable-popup-blocking,--incognito, --disable-download-notification,--start-maximized,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions,
+23:29:03.731 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+23:29:03.731 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.timeouts=10000
+23:29:03.732 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+23:29:03.732 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.unexpectedAlertBehaviour=ignore
+23:29:03.753 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+23:29:03.773 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@32097605
+23:29:03.779 [Test worker] INFO  - Test Suite Started: agrgar productos a la bolsa
+
+?[31mFailed scenarios:?[0m
+file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature:7 # agregar dos productos
+
+1 Scenarios (?[31m1 failed?[0m)
+4 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m, ?[32m1 passed?[0m)
+0m40.214s
+
+
+java.lang.AssertionError: 
+Expected: an element that is not visible
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (04793350bf89ffd75a17a77534d5c4ca)] -> xpath: //button[@type='submit']] [INGRESAR] was visible
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:320)
+	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady.performAs(WaitUntilTargetIsReady.java:30)
+	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady$ByteBuddy$34Qon7Bs.performAs$accessor$KAMTEOIW(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.runBaseObjectMethod(StepInterceptor.java:389)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:74)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady$ByteBuddy$34Qon7Bs.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:213)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:174)
+	at com.falabella.Task.AgregarProductosBolsa.performAs(AgregarProductosBolsa.java:29)
+	at com.falabella.Task.AgregarProductosBolsa$ByteBuddy$peDHtHYa.performAs$accessor$PqWsXndG(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.falabella.Task.AgregarProductosBolsa$ByteBuddy$peDHtHYa.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
+	at com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition.elUsuarioInicieSesion(AgregarProductosBolsaStepDefinition.java:29)
+	at ?.El usuario  inicie sesion(file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature:8)
+
+
+23:29:43.480 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+23:29:43.666 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+23:29:43.683 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@775a946e
+23:29:43.685 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome agrgar productos a la bolsa:agregar dos productos
+23:29:43.685 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@775a946e: Generating report for test outcome: agrgar productos a la bolsa:agregar dos productos
+23:29:43.690 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for agregar dos productos to file C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61.json (using temp file C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61.json9818b3e8-0b7b-4abf-98e1-f55407b5b915)
+23:29:43.762 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome agrgar productos a la bolsa:agregar dos productos done
+23:29:43.763 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+23:29:43.764 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 81 ms
+23:29:43.764 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f9f9db2
+23:29:43.768 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome agrgar productos a la bolsa:agregar dos productos
+23:29:43.770 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f9f9db2: Generating report for test outcome: agrgar productos a la bolsa:agregar dos productos
+23:29:43.772 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR agregar dos productos in 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61
+23:29:43.809 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature agrgar productos a la bolsa
+23:29:43.816 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature registro
+23:29:43.816 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='agrgar productos a la bolsa', type='feature' parent = 'null', cardNumber='null'}, Requirement{name='registro', type='feature' parent = 'null', cardNumber='null'}]
+23:29:43.826 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome agregar dos productos-[]: Optional[Requirement{name='agrgar productos a la bolsa', type='feature' parent = 'null', cardNumber='null'}]
+23:29:43.829 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome agregar dos productos-[]: Optional[Requirement{name='agrgar productos a la bolsa', type='feature' parent = 'null', cardNumber='null'}]
+23:29:43.863 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome agregar dos productos-[]: Optional[Requirement{name='agrgar productos a la bolsa', type='feature' parent = 'null', cardNumber='null'}]
+23:29:43.864 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome agregar dos productos-[]: Optional[Requirement{name='agrgar productos a la bolsa', type='feature' parent = 'null', cardNumber='null'}]
+23:29:44.002 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61_screenshots.html
+23:29:44.593 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61_screenshots.html in 591 ms
+23:29:44.596 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR agrgar productos a la bolsa:agregar dos productos in 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61.html in directory C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity  
+23:29:44.599 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61.html
+23:29:45.249 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 8a249c54f62d28670f0e09c706f0873684227450794d86306a67164fe6eccd61.html in 650 ms
+23:29:45.249 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome agrgar productos a la bolsa:agregar dos productos done
+23:29:45.250 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+23:29:45.250 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1486 ms
+23:29:45.323 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature
+23:29:45.324 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+23:29:45.324 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

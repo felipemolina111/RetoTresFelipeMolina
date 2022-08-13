@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="agregar productos a la bolsa" skipped="0" tests="1" time="18.1" timestamp="2022-08-12 01:34:48"><testcase name="agregar productos a la bolsa"><error message="The actor juanes does not have the ability to browse the web" type="net.serenitybdd.screenplay.exceptions.ActorCannotBrowseTheWebException">The actor juanes does not have the ability to browse the web</error><system-err>The
+    actor juanes does not have the ability to browse the web&#13;
+    com.falabella.Task.AgregarProductosBolsa.performAs(AgregarProductosBolsa.java:23)&#13;
+    com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition.elUsuarioInicieSesion(AgregarProductosBolsaStepDefinition.java:27)&#13;
+    io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+    io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+    io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+    io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+    io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+    io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+    io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+    io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+    io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+    io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+    io.cucumber.core.runner.Runner.runPickle(Runner.java:71)&#13;
+    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+    io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)&#13;
+    io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

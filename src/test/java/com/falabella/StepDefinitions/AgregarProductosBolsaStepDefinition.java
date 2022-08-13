@@ -24,14 +24,8 @@ public class AgregarProductosBolsaStepDefinition {
     public void configuracion (){
         pedro.can(BrowseTheWeb.with(navegador)); }
 
-    @Dado("El usuario  inicie sesion")
-    public void elUsuarioInicieSesion() {
-        pedro.attemptsTo(AgregarProductosBolsa.agregarProductosBolsa());
 
-    }
-
-
-    @Cuando("El usuario agregue los productos")
+    @Cuando("El usuario inicie sesion y agregue los productos")
     public void elUsuarioAgregueLosProductos() {
         pedro.attemptsTo(AgregarProductosBolsa.agregarProductosBolsa());
     }

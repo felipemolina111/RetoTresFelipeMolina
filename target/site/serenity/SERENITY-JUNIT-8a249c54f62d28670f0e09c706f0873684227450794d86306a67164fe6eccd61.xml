@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="agrgar productos a la bolsa" skipped="0" tests="1" time="37.6" timestamp="2022-08-12 11:29:04"><testcase name="agregar dos productos"><failure message="&#13;&#10;Expected: an element that is not visible&#13;&#10;     but: the element identified by [[ChromeDriver: chrome on WINDOWS (04793350bf89ffd75a17a77534d5c4ca)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible" type="java.lang.AssertionError">&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="agrgar productos a la bolsa" skipped="0" tests="1" time="33.48" timestamp="2022-08-13 12:02:35"><testcase name="agregar dos productos"><failure message="&#13;&#10;Expected: an element that is not visible&#13;&#10;     but: the element identified by [[ChromeDriver: chrome on WINDOWS (57b54654adda96e95bba1fe0021c36c6)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible" type="java.lang.AssertionError">&#13;
 Expected: an element that is not visible&#13;
-     but: the element identified by [[ChromeDriver: chrome on WINDOWS (04793350bf89ffd75a17a77534d5c4ca)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible</failure><system-err>&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (57b54654adda96e95bba1fe0021c36c6)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible</failure><system-err>&#13;
 Expected: an element that is not visible&#13;
-     but: the element identified by [[ChromeDriver: chrome on WINDOWS (04793350bf89ffd75a17a77534d5c4ca)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible&#13;
+     but: the element identified by [[ChromeDriver: chrome on WINDOWS (57b54654adda96e95bba1fe0021c36c6)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible&#13;
 com.falabella.Task.AgregarProductosBolsa.performAs(AgregarProductosBolsa.java:29)&#13;
-com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition.elUsuarioInicieSesion(AgregarProductosBolsaStepDefinition.java:29)&#13;
+com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition.elUsuarioAgregueLosProductos(AgregarProductosBolsaStepDefinition.java:30)&#13;
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;

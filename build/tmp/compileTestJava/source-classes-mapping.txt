@@ -2,7 +2,7 @@ com/falabella/Runners/RegistroRunner.java
  com.falabella.Runners.RegistroRunner
 com/falabella/Runners/AgregarProductosBolsaRunner.java
  com.falabella.Runners.AgregarProductosBolsaRunner
-com/falabella/StepDefinitions/AgregarProductosBolsaStepDefinition.java
- com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition
 com/falabella/StepDefinitions/RegistroStepDefinition.java
  com.falabella.StepDefinitions.RegistroStepDefinition
+com/falabella/StepDefinitions/AgregarProductosBolsaStepDefinition.java
+ com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition

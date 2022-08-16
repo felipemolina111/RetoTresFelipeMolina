@@ -37,7 +37,7 @@ public class AgregarProductosBolsaStepDefinition {
 
     @Entonces("El usuario visualizara la cantidad de productos")
     public void elUsuarioVisualizaraLaCantidadDeProductos() {
-        pedro.should(seeThat("el actor puede ver", ValidacionProductosEnBolsa.validar(), Matchers.equalTo("2")));
+        pedro.should(seeThat("El usuario valida la cantidad de productos son: ", ValidacionProductosEnBolsa.validar(), Matchers.equalTo("2")));
     }
 
 }

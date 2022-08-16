@@ -39,7 +39,7 @@ public class RegistroStepDefinition {
     }
     @Entonces("El usuario visualizara el mensaje de mi cuena")
     public void elUsuarioVisualizaraElMensajeDeMiCuena() {
-        juan.should(seeThat("el actor puede ver", ValidacionRegistro.validar(), Matchers.equalTo(true)));
+        juan.should(seeThat("El usuario valida que el mensaje se muestra", ValidacionRegistro.validar(), Matchers.equalTo(true)));
     }
 
 

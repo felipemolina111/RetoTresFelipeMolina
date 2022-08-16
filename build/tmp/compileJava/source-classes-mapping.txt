@@ -6,15 +6,17 @@ com/falabella/UserInterfaces/PaginaPrincipalPage.java
  com.falabella.UserInterfaces.PaginaPrincipalPage
 com/falabella/UserInterfaces/SesionIniciadaPage.java
  com.falabella.UserInterfaces.SesionIniciadaPage
-com/falabella/Task/Registro.java
- com.falabella.Task.Registro
-com/falabella/UserInterfaces/BolsaComprasPage.java
- com.falabella.UserInterfaces.BolsaComprasPage
-com/falabella/Questions/ValidacionRegistro.java
- com.falabella.Questions.ValidacionRegistro
 com/falabella/UserInterfaces/BaseCamasPage.java
  com.falabella.UserInterfaces.BaseCamasPage
+com/falabella/UserInterfaces/BolsaComprasPage.java
+ com.falabella.UserInterfaces.BolsaComprasPage
+com/falabella/Task/Registro.java
+ com.falabella.Task.Registro
 com/falabella/Questions/ValidacionProductosEnBolsa.java
  com.falabella.Questions.ValidacionProductosEnBolsa
+com/falabella/Questions/ValidacionRegistro.java
+ com.falabella.Questions.ValidacionRegistro
 com/falabella/Task/AgregarProductosBolsa.java
  com.falabella.Task.AgregarProductosBolsa
+com/falabella/Utils/ShadowHandler.java
+ com.falabella.Utils.ShadowHandler

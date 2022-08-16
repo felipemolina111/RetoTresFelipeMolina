@@ -21,13 +21,13 @@ public class AgregarProductosBolsa implements Task {
         try {
             actor.attemptsTo(
 
-
                     /*Click.on(BTN_INICIO_SESION),
                     Enter.theValue(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,3)).into(TXT_CORREO),
                     Enter.theValue(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,5)).into(TXT_CONSIGNA),
                     Click.on(BTN_INGRESAR),
                     WaitUntil.the(BTN_INGRESAR, isNotVisible()),
                     Click.on(BTN_IR_COMPRAR),*/
+
                     Click.on(BTN_CATEGORIAS),
                     Click.on(BTN_DORMITORIO),
                     Click.on(BTN_BASECAMA),

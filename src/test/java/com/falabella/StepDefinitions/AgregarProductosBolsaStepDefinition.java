@@ -5,7 +5,6 @@ import com.falabella.Task.AgregarProductosBolsa;
 import com.falabella.UserInterfaces.PaginaPrincipalPage;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -13,6 +12,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Managed;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
+import com.falabella.Utils.ShadowHandler;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
@@ -27,11 +27,13 @@ public class AgregarProductosBolsaStepDefinition {
     @Before
     public void configuracion (){
         pedro.can(BrowseTheWeb.with(navegador));
-        pedro.wasAbleTo(Open.browserOn(paginaPrincipalPage));}
+       // pedro.wasAbleTo(Open.browserOn(paginaPrincipalPage));
+        }
 
 
     @Cuando("El usuario inicie sesion y agregue los productos")
-    public void elUsuarioAgregueLosProductos() {
+    public void elUsuarioAgregueLosProductos() throws InterruptedException {
+        ShadowHandler.openShadow(navegador);
         pedro.attemptsTo(AgregarProductosBolsa.agregarProductosBolsa());
     }
 

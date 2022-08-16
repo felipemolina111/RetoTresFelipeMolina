@@ -28,6 +28,7 @@ public class AgregarProductosBolsa implements Task {
                     WaitUntil.the(BTN_INGRESAR, isNotVisible()),
                     Click.on(BTN_IR_COMPRAR),*/
 
+                    // TODO: El login no funciona correctamente por seguridad de la pagina
                     Click.on(BTN_CATEGORIAS),
                     Click.on(BTN_DORMITORIO),
                     Click.on(BTN_BASECAMA),

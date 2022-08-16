@@ -1,18 +1,16 @@
 package com.falabella.Questions;
 
+import com.falabella.UserInterfaces.SesionIniciadaPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-public class ValidarRegistro implements Question {
+public class ValidacionRegistro implements Question {
 
     @Override
     public Object answeredBy(Actor actor) {
-        return MensajeLoginPage.MSJ_LOGIN.resolveFor(actor).isVisible();
-    }
+        return SesionIniciadaPage.MSJ_CUENTA_CREADA.resolveFor(actor).isVisible(); }
 
-    public static Question validar(){
-        return new ValidacionLogin();
-    }
+    public static Question validar(){ return new ValidacionRegistro(); }
 
 
 }

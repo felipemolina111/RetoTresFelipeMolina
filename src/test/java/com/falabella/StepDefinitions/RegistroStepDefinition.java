@@ -1,5 +1,6 @@
 package com.falabella.StepDefinitions;
 
+import com.falabella.Questions.ValidacionRegistro;
 import com.falabella.Task.Registro;
 import com.falabella.UserInterfaces.PaginaPrincipalPage;
 import io.cucumber.java.Before;
@@ -10,7 +11,10 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Managed;
+import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
 public class RegistroStepDefinition {
 
@@ -35,7 +39,7 @@ public class RegistroStepDefinition {
     }
     @Entonces("El usuario visualizara el mensaje de mi cuena")
     public void elUsuarioVisualizaraElMensajeDeMiCuena() {
-
+        juan.should(seeThat("el actor puede ver", ValidacionRegistro.validar(), Matchers.equalTo(true)));
     }
 
 

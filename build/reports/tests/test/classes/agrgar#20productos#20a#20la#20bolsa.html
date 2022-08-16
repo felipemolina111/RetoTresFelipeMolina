@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">35.479s</div>
+<div class="counter">1m25.04s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,69 +61,16 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
+<a href="#tab1">Standard output</a>
 </li>
 <li>
-<a href="#tab2">Standard output</a>
-</li>
-<li>
-<a href="#tab3">Standard error</a>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="agregar dos productos"></a>
-<h3 class="failures">agregar dos productos</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 
-Expected: an element that is not visible
-     but: the element identified by [[ChromeDriver: chrome on WINDOWS (57b54654adda96e95bba1fe0021c36c6)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:320)
-	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady.performAs(WaitUntilTargetIsReady.java:30)
-	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady$ByteBuddy$u8T5jjQG.performAs$accessor$wBXvOejL(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
-	at net.thucydides.core.steps.StepInterceptor.runBaseObjectMethod(StepInterceptor.java:389)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:74)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady$ByteBuddy$u8T5jjQG.performAs(Unknown Source)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:213)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:174)
-	at com.falabella.Task.AgregarProductosBolsa.performAs(AgregarProductosBolsa.java:29)
-	at com.falabella.Task.AgregarProductosBolsa$ByteBuddy$GtafeKh5.performAs$accessor$1o6q3GHj(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at com.falabella.Task.AgregarProductosBolsa$ByteBuddy$GtafeKh5.performAs(Unknown Source)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:252)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:178)
-	at com.falabella.StepDefinitions.AgregarProductosBolsaStepDefinition.elUsuarioAgregueLosProductos(AgregarProductosBolsaStepDefinition.java:30)
-	at ✽.El usuario inicie sesion y agregue los productos(file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature:8)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -134,17 +81,17 @@ Expected: an element that is not visible
 </tr>
 </thead>
 <tr>
-<td class="failures">agregar dos productos</td>
-<td class="failures">35.479s</td>
-<td class="failures">failed</td>
+<td class="success">agregar dos productos</td>
+<td class="success">1m25.04s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>00:02:35.452 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature
-00:02:35.629 [Test worker] INFO  - 
+<pre>18:45:47.263 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Molina/Desktop/New%20folder/selenium-webdriver-java-course-c1/FelipeMolinaScreenPlay/src/test/resources/features/agregarProductosBolsa.feature
+18:45:47.535 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -153,83 +100,126 @@ Expected: an element that is not visible
 
 agregar dos productos(agrgar-productos-a-la-bolsa;agregar-dos-productos)
 -------------------------------------------------------------------
-00:02:35.776 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature agrgar productos a la bolsa
-00:02:35.803 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature registro
-00:02:36.697 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: RegistroStepDefinition.elUsuarioSeEncuentreEnLaPagina - {0} opens the #targetPage
-00:02:36.798 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-00:02:37.444 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=104 in cache (valid until 00:04:38 13/08/2022 COT)
-00:02:37.447 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome104=104.0.5112.79 in cache (valid until 02:06:58 13/08/2022 COT)
-00:02:37.448 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
-00:02:37.468 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 104.0.5112.79 found in cache
-00:02:37.470 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Molina\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
-00:02:38.314 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-00:02:38.315 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disable-popup-blocking, -..., goog:chromeOptions: {args: [--disable-popup-blocking, --disable-download-notifica..., --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore}
-00:02:46.269 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-00:02:46.271 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-00:02:47.554 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5e289add11b1dd384affb099d7228297aa5bd4d9035cc917a67e1ea43539c2fb.png
-00:02:47.557 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
-00:02:48.320 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5e289add11b1dd384affb099d7228297aa5bd4d9035cc917a67e1ea43539c2fb.png
-00:02:49.003 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5e289add11b1dd384affb099d7228297aa5bd4d9035cc917a67e1ea43539c2fb.png
-00:02:49.005 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsaStepDefinition.elUsuarioAgregueLosProductos - performAs
-00:02:51.482 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\40b272f710512503b4064c7c2c4f96468bd1f8685fb388b0fcc332646fb9d07b.png
-00:02:51.484 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
-00:02:51.485 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:02:52.863 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\8673d94acfa9935ea0146587ddb892aff03e455b365148076703f2762392ebb5.png
-00:02:52.900 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-00:02:53.600 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6b779655989c50e4524b7ee72aa372e227b869bade66b411aa849cd76f3c883a.png
-00:02:53.602 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} enters #theTextAsAString into #target
-00:02:53.604 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ingresar correo
-00:02:54.972 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\3dc114cc6f22355b75827b0d9787f9f41ee89d3e198969b4cfd1bcd3ccd96a85.png
-00:02:54.999 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-00:02:55.596 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\83fc85d4cfe3348b9473f2939f121321f893b97bbbd521ecd432542c01e2f2c6.png
-00:02:55.597 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} enters #theTextAsAString into #target
-00:02:55.598 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ingresar la contraseña
-00:02:57.114 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6da6a79f49a8de5a6b0f0634f869638a62621ecf250ff81965bc1cf1b4b14490.png
-00:02:57.134 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-00:02:57.163 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
-00:02:57.165 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:02:58.487 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\af7c0883be25df4cbdb55dd0e77726446184db15f9126dd48e040a208084f301.png
-00:02:58.491 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15304058564817295364
-00:02:58.491 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\af7c0883be25df4cbdb55dd0e77726446184db15f9126dd48e040a208084f301.png
-00:02:58.511 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-00:02:58.523 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:02:59.362 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:00.096 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:00.815 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:01.455 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:02.136 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:03.153 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:03.841 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:04.539 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:05.244 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:05.935 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:06.647 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:07.416 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:08.216 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton iniciar sesion
-00:03:10.211 [Test worker] ERROR  - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+18:45:47.671 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature agrgar productos a la bolsa
+18:45:47.696 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature registro
+18:45:48.482 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsaStepDefinition.configuracion - {0} opens the #targetPage
+18:45:48.585 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+18:45:49.363 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Removing resolution chrome=104 from cache (expired on Mon Aug 15 17:39:29 COT 2022)
+18:45:49.377 [Test worker] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+18:45:52.043 [Test worker] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: Version=104.0.5112.81
+18:45:52.048 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome104=104.0.5112.79 in cache (valid until 16:39:29 16/08/2022 COT)
+18:45:52.048 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+18:45:52.053 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=104 in cache (valid until 19:45:52 15/08/2022 COT)
+18:45:52.068 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 104.0.5112.79 found in cache
+18:45:52.069 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Molina\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+18:45:52.994 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+18:45:52.995 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disable-popup-blocking,--..., goog:chromeOptions: {args: [--disable-popup-blocking, --incognito, --disable-download-notifica..., --start-maximized, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore}
+18:46:02.838 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+18:46:02.840 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+18:46:04.582 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5e289add11b1dd384affb099d7228297aa5bd4d9035cc917a67e1ea43539c2fb.png
+18:46:04.586 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+18:46:05.046 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\4c818c45aa118401d5ae12053f12eb64bad09d8808cb73c99cad7b7ef573be2f.png
+18:46:05.046 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2244653665300121291
+18:46:05.047 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\4c818c45aa118401d5ae12053f12eb64bad09d8808cb73c99cad7b7ef573be2f.png
+18:46:05.097 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: RegistroStepDefinition.elUsuarioSeEncuentreEnLaPagina - {0} opens the #targetPage
+18:46:10.856 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\2766fbd519d7d2db433d619a34405acb0db04dc8a00b598e567afc430362b802.png
+18:46:10.857 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+18:46:11.573 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\2766fbd519d7d2db433d619a34405acb0db04dc8a00b598e567afc430362b802.png
+18:46:11.574 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsaStepDefinition.elUsuarioAgregueLosProductos - performAs
+18:46:12.464 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\2766fbd519d7d2db433d619a34405acb0db04dc8a00b598e567afc430362b802.png
+18:46:12.465 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:12.467 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton categorias
+18:46:13.834 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5a26bb6a48050d7ae3dfc9bfcb7b7a3b1fd4411e8267a233c6cc4ce4624488fa.png
+18:46:13.835 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7010912305924349051
+18:46:13.835 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\5a26bb6a48050d7ae3dfc9bfcb7b7a3b1fd4411e8267a233c6cc4ce4624488fa.png
+18:46:13.863 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:14.431 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\fbd02cce9705dfb0b20128e60a4fd9706a911bf015bfbf1f7a1ae94b0c140f11.png
+18:46:14.432 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:14.434 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton dormitorio
+18:46:15.108 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\0f2e0c266e242ad77607493c4f402e7e71eb79429eff9dbd22cc3df07c825c88.png
+18:46:15.128 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:15.156 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:15.157 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton basecama
+18:46:24.609 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\268c6c6959867155367d084f5bb568f9bb3e12cf9cf11fc35e71920a95e07d97.png
+18:46:24.612 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-18132911705604617168
+18:46:24.612 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\268c6c6959867155367d084f5bb568f9bb3e12cf9cf11fc35e71920a95e07d97.png
+18:46:24.653 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:24.657 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for imagen primer producto a seleccionar
+18:46:26.267 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\4b0260d652c050bf8c6723f3d4331895a278836d03564a5b2281ada177d01e3c.png
+18:46:26.267 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17036370205478881616
+18:46:26.268 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\4b0260d652c050bf8c6723f3d4331895a278836d03564a5b2281ada177d01e3c.png
+18:46:26.268 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} hovers over #target
+18:46:26.305 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for imagen primer producto a seleccionar
+18:46:26.998 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6ec6d0733bbf17431042b268fb7e8db6383c98d9b01c849ad0cf5efac362ed29.png
+18:46:26.999 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4694109120907853028
+18:46:27.000 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6ec6d0733bbf17431042b268fb7e8db6383c98d9b01c849ad0cf5efac362ed29.png
+18:46:27.001 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} hovers over #target
+18:46:27.026 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:27.027 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton agregar primer producto
+18:46:31.268 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\32f42723d5f82b03ddeda84ebdfe80784ef9dc1fd5b0f116cbf45f3524d27af9.png
+18:46:31.286 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:31.308 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:31.309 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton ver bolsa de compras primer producto
+18:46:39.836 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f3a42e18e62d47685a609ef8a63166c2713403ad47b4289dc685c64226bdfa5a.png
+18:46:39.874 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:41.838 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\7099fd80f0d81af4ffb20c88910dfd5ddbde8165d11dca9c2b87ff92480734ba.png
+18:46:41.840 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} enters #theTextAsAString into #target
+18:46:41.842 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for ingresar busqueda
+18:46:42.668 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6a3b85277e40b8c410c5b4fa5754e891a6ac1c8275acb3cfd770a50d26d1e459.png
+18:46:42.693 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+18:46:42.711 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:42.712 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for enter realizar busqueda
+18:46:50.901 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\a0f9aeeab00aed1cf1b02723555acef8b203933b5ae7adc55314a7b10f63f2a8.png
+18:46:50.902 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-859600745046168920
+18:46:50.902 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\a0f9aeeab00aed1cf1b02723555acef8b203933b5ae7adc55314a7b10f63f2a8.png
+18:46:50.927 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:50.929 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for imagen segundo producto a seleccionar
+18:46:51.818 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f57b9bd5dba4dd6bd8c0296901250d485887a35e8092c8f34cbcb3b048465943.png
+18:46:51.819 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8516655250175335164
+18:46:51.819 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f57b9bd5dba4dd6bd8c0296901250d485887a35e8092c8f34cbcb3b048465943.png
+18:46:51.819 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} hovers over #target
+18:46:51.843 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for imagen segundo producto a seleccionar
+18:46:52.499 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\faa606fc6153288e9f88c3fde4ab524e6a6f75ef91ccbcdc47a2d4c5c2f3eab9.png
+18:46:52.499 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} hovers over #target
+18:46:52.499 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-11191553440985977523
+18:46:52.499 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\faa606fc6153288e9f88c3fde4ab524e6a6f75ef91ccbcdc47a2d4c5c2f3eab9.png
+18:46:52.518 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:52.519 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton agregar segundo producto
+18:46:56.591 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f00d804821ad8cc9f7315e2fa2f22f5c9732f5d152768efec97535984bc8956d.png
+18:46:56.593 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3597772077948328919
+18:46:56.593 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f00d804821ad8cc9f7315e2fa2f22f5c9732f5d152768efec97535984bc8956d.png
+18:46:56.619 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:46:57.111 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\f00d804821ad8cc9f7315e2fa2f22f5c9732f5d152768efec97535984bc8956d.png
+18:46:57.113 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: AgregarProductosBolsa.performAs - {0} clicks on #target
+18:46:57.114 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for boton ver bolsa de compras segundo producto
+18:47:09.769 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\4ecb5c1d90a387ca049d90e5251b7a334f9627c69afdc7920c3f917d17c22940.png
+18:47:09.790 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:47:09.805 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+18:47:10.145 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6ba7f47a24e960ecb2eb7655470b1c4356bc29064dd8e2098a830377375697c7.png
+18:47:10.649 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6ba7f47a24e960ecb2eb7655470b1c4356bc29064dd8e2098a830377375697c7.png
+18:47:10.654 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for mensaje de cantidad de productos
+18:47:11.016 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\Users\Molina\Desktop\New folder\selenium-webdriver-java-course-c1\FelipeMolinaScreenPlay\target\site\serenity\6ba7f47a24e960ecb2eb7655470b1c4356bc29064dd8e2098a830377375697c7.png
+18:47:11.967 [Test worker] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
 agregar dos productos
---------------------------------------------------------------------------
-00:03:10.215 [Test worker] DEBUG  - RELATED ISSUES: 
-00:03:10.623 [Test worker] ERROR  -     Test failed at step: Pedro agregar productos bolsa
-00:03:10.624 [Test worker] ERROR  -     Expected: an element that is not visible but: the element identified by [[ChromeDriver: chrome on WINDOWS (57b54654adda96e95bba1fe0021c36c6)] -&gt; xpath: //button[@type='submit']] [INGRESAR] was visible
+----------------------------------------------------------------------------
 </pre>
 </span>
 </div>
-<div id="tab3" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 41895
+<pre>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 7215
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ago. 13, 2022 12:02:40 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ago. 15, 2022 6:45:55 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 </pre>
 </span>
@@ -242,7 +232,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at Aug 13, 2022, 12:03:12 AM</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at Aug 15, 2022, 6:47:15 PM</p>
 </div>
 </div>
 </body>

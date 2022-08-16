@@ -6,8 +6,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
-
-
 import java.io.IOException;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static com.falabella.UserInterfaces.PaginaPrincipalPage.*;
@@ -32,12 +30,12 @@ public class Registro implements Task {
                     Enter.theValue(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,5)).into(TXT_CONFIRMAR_CLAVE),
                     Enter.theValue(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,8)).into(TXT_NUMERO_DOCUMENTO),
                     Click.on(RDO_HOMBRE),
-
                     SelectFromOptions.byVisibleText(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,9)).from(LST_DIA),
                     SelectFromOptions.byVisibleText(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,10)).from(LST_MES),
                     SelectFromOptions.byVisibleText(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,11)).from(LST_ANO),
                     Enter.theValue(datos.leerDatosExcel("DatosRetoTres.xlsx","Registro",1,12)).into(TXT_CELULAR),
-                    Click.on(CHK_ACEPTAR_CONDICIONES)
+                    Click.on(CHK_ACEPTAR_CONDICIONES),
+                    Click.on(BTN_GUARDAR)
             );
         }
         catch (IOException e){

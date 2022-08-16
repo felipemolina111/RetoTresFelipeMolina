@@ -12,8 +12,6 @@ public class RegistroPage extends PageObject {
     public static final Target TXT_EMAIL = Target.the("email").located(By.xpath("//input[@id='mail']"));
     public static final Target TXT_CLAVE = Target.the("clave").located(By.xpath("//input[@id='clave1']"));
     public static final Target TXT_CONFIRMAR_CLAVE = Target.the("confirmar clave").located(By.xpath("//input[@id='clave2']"));
-    public static final Target LST_PAIS = Target.the("pais").located(By.xpath("//select[@id='status']"));
-    public static final Target LST_TIPO_DOCUMENTO = Target.the("tipo de documento").located(By.xpath("//select[@id='cedula']"));
     public static final Target TXT_NUMERO_DOCUMENTO = Target.the("numero documento").located(By.xpath("//input[@id='cedula_colombia']"));
     public static final Target RDO_HOMBRE = Target.the("genero hombre").located(By.xpath("(//input[@id='tipodireccion_0'])[1]"));
     public static final Target LST_DIA = Target.the("dia").located(By.xpath("//select[@id='day']"));
